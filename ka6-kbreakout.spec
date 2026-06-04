@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	26.04.1
+%define		kdeappsver	26.04.2
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kbreakout
 Summary:	Kbreakout
 Name:		ka6-%{kaname}
-Version:	26.04.1
+Version:	26.04.2
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications/Games
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	f2d696f64f29cab254fea641a889dfcb
+# Source0-md5:	341d85acfedbf29bc40f32b14e43097c
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Gui-devel >= 5.11.1
